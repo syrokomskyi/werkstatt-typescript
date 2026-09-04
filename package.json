@@ -1,6 +1,6 @@
 {
   "name": "@warpgogol/werkstatt-typescript",
-  "version": "2.0.0",
+  "version": "2.1.1",
   "private": false,
   "type": "module",
   "engines": {
@@ -31,7 +31,9 @@
       "default": "./src/checks/module.ts"
     }
   },
-  "files": ["src"],
+  "files": [
+    "src"
+  ],
   "scripts": {
     "lint": "pnpm exec eslint \"src/**/*.ts\"",
     "typecheck": "pnpm exec tsc -p tsconfig.json --noEmit",
@@ -44,9 +46,9 @@
     "access": "public"
   },
   "dependencies": {
-    "@warpgogol/forge": "workspace:*",
-    "@warpgogol/werkstatt-engine": "workspace:*",
-    "@warpgogol/werkstatt-shared": "workspace:*"
+    "@warpgogol/forge": "*",
+    "@warpgogol/werkstatt-engine": "*",
+    "@warpgogol/werkstatt-shared": "*"
   },
   "devDependencies": {
     "@types/node": "^26.2.0",
@@ -54,5 +56,6 @@
     "typescript": "^6.0.3",
     "typescript-eslint": "8.68.0",
     "vitest": "^4.1.11"
-  }
+  },
+  "packageManager": "pnpm@11.10.0"
 }
