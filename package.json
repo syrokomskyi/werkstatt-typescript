@@ -1,6 +1,6 @@
 {
   "name": "@warpgogol/werkstatt-typescript",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "private": false,
   "type": "module",
   "engines": {
@@ -46,9 +46,9 @@
     "access": "public"
   },
   "dependencies": {
-    "@warpgogol/forge": "workspace:*",
-    "@warpgogol/werkstatt-engine": "workspace:*",
-    "@warpgogol/werkstatt-shared": "workspace:*"
+    "@warpgogol/forge": "*",
+    "@warpgogol/werkstatt-engine": "*",
+    "@warpgogol/werkstatt-shared": "*"
   },
   "devDependencies": {
     "@types/node": "^26.5.1",
@@ -56,5 +56,6 @@
     "typescript": "^7.0.2",
     "typescript-eslint": "8.70.0",
     "vitest": "^5.0.0"
-  }
+  },
+  "packageManager": "pnpm@11.10.0"
 }
