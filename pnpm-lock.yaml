@@ -9,14 +9,14 @@ importers:
   .:
     dependencies:
       '@warpgogol/forge':
-        specifier: '*'
-        version: 4.2.4
+        specifier: ^5.1.0
+        version: 5.1.0
       '@warpgogol/werkstatt-engine':
-        specifier: '*'
-        version: 1.10.4(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@opentelemetry/core@2.11.0(@opentelemetry/api@1.9.1))(@types/node@26.6.1)(typescript@5.9.3)
+        specifier: ^1.11.0
+        version: 1.11.0(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@opentelemetry/core@2.11.0(@opentelemetry/api@1.9.1))(@types/node@26.6.1)(typescript@5.9.3)
       '@warpgogol/werkstatt-shared':
-        specifier: '*'
-        version: 0.14.1(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@opentelemetry/core@2.11.0(@opentelemetry/api@1.9.1))(@types/node@26.6.1)(typescript@5.9.3)
+        specifier: ^0.15.0
+        version: 0.15.0
     devDependencies:
       '@types/node':
         specifier: ^26.5.1
@@ -1285,18 +1285,18 @@ packages:
   '@vitest/spy@5.0.1':
     resolution: {integrity: sha512-rbto/mF/SGERxEgYOek7Xm6B9b+y+mVoo+f4b2LymYO8zM1b7uB5nHuhVMTP2hxdzgxvGiZYGxGIaMvL5y180Q==}
 
-  '@warpgogol/forge@4.2.4':
-    resolution: {integrity: sha512-rUXRxj24rneF7zKEcvq/XisfjrxMj+gPNlh42rkz86jEftcPBqXnUcN2rc1oumdsJfy4c11qztdV0iKnLSRtzw==}
+  '@warpgogol/forge@5.1.0':
+    resolution: {integrity: sha512-jjcR5EuXbgY3bsdJFIcY6v8B5vNmM+5e6nXmzr0R5qWdGfiKDzD4v9Z35MwaA+TqLhOIE8f6LCRdc6eZE9hCYA==}
     engines: {node: '>=24 <25'}
     hasBin: true
 
-  '@warpgogol/werkstatt-engine@1.10.4':
-    resolution: {integrity: sha512-ZSbhVVtAfRkqiAHfy/CQ21YuvOytFhD1Atvw+GWr/Xy7CQi2M6mXZtulM/3TzL3rhqYUt4ikD/c6ZgB+nUsKCA==}
+  '@warpgogol/werkstatt-engine@1.11.0':
+    resolution: {integrity: sha512-YtQvkvFgT2ktE1aLUXKUkEiJGSaI9kFEMuMuuDmXibZwzu/6Lz32sj80KeJnZ2LqSlT7b5zz9OGi9uLRhnvfIw==}
     engines: {node: '>=24 <25'}
     hasBin: true
 
-  '@warpgogol/werkstatt-shared@0.14.1':
-    resolution: {integrity: sha512-CVMXDHsBFzZGHZF1JP2FEOc9BFkJHUKk9nUe+cIqC8ds88xX51ZIPJYJbh/UlB/ZJ/ClrrMq7n1WI//wgh07OQ==}
+  '@warpgogol/werkstatt-shared@0.15.0':
+    resolution: {integrity: sha512-4i3xYVlRwobXG+D0p0PhW6HYDE29NNuUKymKEw9mW9TOeRCQLi0HrCbeAg2ExtvL5NFKHsrzkghs3BKJ+j3ZtQ==}
     engines: {node: '>=24 <25'}
 
   '@workflow/serde@4.1.0':
@@ -2832,8 +2832,8 @@ packages:
   property-information@7.2.0:
     resolution: {integrity: sha512-IAtzIB6sUiWaJYrX9smp3V46pBGbBeLFRGdh25kg1334VcBlD8HzhPeNIWQH9zhGmo2itIe25EHt9dQP7G5hmg==}
 
-  protons-runtime@7.1.1:
-    resolution: {integrity: sha512-c/PYyiENwXzz+JQDISCDfBFAxmASuDJfoUovBUa81WJ0F6RdEy/u6wHvLIgmrzyl+q3ulvVLTHNCErHs4X3cjA==}
+  protons-runtime@7.1.2:
+    resolution: {integrity: sha512-j7Y7MfCwPCxYwopyqDt8+CoJULzdajSBrFAzzfBHEhOTfdvOJ2z1QLK9aK34bSBz6V/9JAAlrsc/rFkIbqppuw==}
 
   pump@3.0.4:
     resolution: {integrity: sha512-VS7sjc6KR7e1ukRFhQSY5LM2uBWAUPiOPa/A3mkKmiMwSmRFUITt0xuj+/lesgnCv+dPIEYlkzrcyXgquIHMcA==}
@@ -4336,7 +4336,7 @@ snapshots:
       '@noble/curves': 2.4.0
       '@noble/hashes': 2.4.0
       multiformats: 14.0.5
-      protons-runtime: 7.1.1
+      protons-runtime: 7.1.2
       uint8arraylist: 3.0.2
       uint8arrays: 6.1.1
 
@@ -4353,7 +4353,7 @@ snapshots:
       it-drain: 3.0.12
       it-parallel: 3.0.16
       main-event: 1.0.5
-      protons-runtime: 7.1.1
+      protons-runtime: 7.1.2
       uint8arraylist: 3.0.2
       uint8arrays: 6.1.1
 
@@ -4401,7 +4401,7 @@ snapshots:
       p-defer: 4.0.1
       p-event: 7.1.1
       progress-events: 1.1.0
-      protons-runtime: 7.1.1
+      protons-runtime: 7.1.2
       race-signal: 2.0.2
       uint8-varint: 3.0.0
       uint8arraylist: 3.0.2
@@ -4444,7 +4444,7 @@ snapshots:
       '@libp2p/peer-id': 6.0.15
       '@multiformats/multiaddr': 13.0.3
       multiformats: 14.0.5
-      protons-runtime: 7.1.1
+      protons-runtime: 7.1.2
       uint8-varint: 3.0.0
       uint8arraylist: 3.0.2
       uint8arrays: 6.1.1
@@ -4462,7 +4462,7 @@ snapshots:
       main-event: 1.0.5
       mortice: 3.3.1
       multiformats: 14.0.5
-      protons-runtime: 7.1.1
+      protons-runtime: 7.1.2
       uint8arraylist: 3.0.2
       uint8arrays: 6.1.1
 
@@ -4477,7 +4477,7 @@ snapshots:
 
   '@libp2p/record@4.0.15':
     dependencies:
-      protons-runtime: 7.1.1
+      protons-runtime: 7.1.2
       uint8arraylist: 3.0.2
       uint8arrays: 6.1.1
 
@@ -4514,7 +4514,7 @@ snapshots:
       p-defer: 4.0.1
       p-event: 7.1.1
       progress-events: 1.1.0
-      protons-runtime: 7.1.1
+      protons-runtime: 7.1.2
       race-signal: 2.0.2
       uint8-varint: 3.0.0
       uint8arraylist: 3.0.2
@@ -5049,7 +5049,7 @@ snapshots:
 
   '@vitest/spy@5.0.1': {}
 
-  '@warpgogol/forge@4.2.4':
+  '@warpgogol/forge@5.1.0':
     dependencies:
       '@aws-sdk/client-s3': 3.1134.0
       ajv: 8.20.0
@@ -5058,7 +5058,7 @@ snapshots:
       yaml: 2.9.1
       zod: 4.6.5
 
-  '@warpgogol/werkstatt-engine@1.10.4(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@opentelemetry/core@2.11.0(@opentelemetry/api@1.9.1))(@types/node@26.6.1)(typescript@5.9.3)':
+  '@warpgogol/werkstatt-engine@1.11.0(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@opentelemetry/core@2.11.0(@opentelemetry/api@1.9.1))(@types/node@26.6.1)(typescript@5.9.3)':
     dependencies:
       '@ai-sdk/anthropic': 4.0.56(zod@4.6.5)
       '@ai-sdk/openai': 4.0.69(zod@4.6.5)
@@ -5075,8 +5075,8 @@ snapshots:
       '@types/better-sqlite3': 9.6.0
       '@types/picomatch': 4.0.3
       '@typescript-eslint/typescript-estree': 8.70.0(typescript@5.9.3)
-      '@warpgogol/forge': 4.2.4
-      '@warpgogol/werkstatt-shared': 0.14.1(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@opentelemetry/core@2.11.0(@opentelemetry/api@1.9.1))(@types/node@26.6.1)(typescript@5.9.3)
+      '@warpgogol/forge': 5.1.0
+      '@warpgogol/werkstatt-shared': 0.15.0
       ai: 7.0.105(zod@4.6.5)
       ajv: 8.20.0
       ajv-formats: 3.0.1(ajv@8.20.0)
@@ -5149,11 +5149,11 @@ snapshots:
       - vue
       - yauzl
 
-  '@warpgogol/werkstatt-shared@0.14.1(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@opentelemetry/core@2.11.0(@opentelemetry/api@1.9.1))(@types/node@26.6.1)(typescript@5.9.3)':
+  '@warpgogol/werkstatt-shared@0.15.0':
     dependencies:
       '@lordicon/element': 2.3.1
+      '@noble/ed25519': 3.2.0
       '@sindresorhus/slugify': 3.0.1
-      '@warpgogol/werkstatt-engine': 1.10.4(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@opentelemetry/core@2.11.0(@opentelemetry/api@1.9.1))(@types/node@26.6.1)(typescript@5.9.3)
       ajv: 8.20.0
       bs58: 6.0.0
       cyrillic-to-translit-js: 3.2.1
@@ -5169,47 +5169,9 @@ snapshots:
     optionalDependencies:
       '@syrokomskyi/axiom-study': link:../../../pipelines/packages/axiom/axiom-study
     transitivePeerDependencies:
-      - '@azure/app-configuration'
-      - '@azure/cosmos'
-      - '@azure/data-tables'
-      - '@azure/identity'
-      - '@azure/keyvault-secrets'
-      - '@azure/storage-blob'
-      - '@capacitor/preferences'
-      - '@deno/kv'
-      - '@emnapi/core'
-      - '@emnapi/runtime'
-      - '@netlify/blobs'
       - '@nuxt/kit'
-      - '@opentelemetry/core'
-      - '@opentelemetry/exporter-trace-otlp-http'
-      - '@planetscale/database'
-      - '@types/node'
-      - '@upstash/redis'
-      - '@vercel/blob'
-      - '@vercel/functions'
-      - '@vercel/kv'
-      - '@vitejs/devtools'
-      - aws4fetch
-      - bufferutil
-      - db0
-      - idb-keyval
-      - ioredis
-      - jiti
-      - less
-      - proxy-agent
       - react
-      - sass
-      - sass-embedded
-      - stylus
-      - sugarss
-      - supports-color
-      - terser
-      - typescript
-      - uploadthing
-      - utf-8-validate
       - vue
-      - yauzl
 
   '@workflow/serde@4.1.0': {}
 
@@ -7232,7 +7194,7 @@ snapshots:
 
   property-information@7.2.0: {}
 
-  protons-runtime@7.1.1:
+  protons-runtime@7.1.2:
     dependencies:
       uint8-varint: 3.0.0
       uint8arraylist: 3.0.2

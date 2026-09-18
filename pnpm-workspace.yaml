@@ -1,0 +1,4 @@
+minimumReleaseAgeExclude:
+  - '@warpgogol/forge@5.1.0'
+  - '@warpgogol/werkstatt-engine@1.11.0'
+  - '@warpgogol/werkstatt-shared@0.15.0'
